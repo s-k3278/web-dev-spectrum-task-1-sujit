@@ -1,0 +1,332 @@
+/*THE SCREEN RESOLUTION IS 100%*/
+body {
+	border:2px dashed black;
+	margin-left: 155px;
+	margin-top: 0px;
+	height: 700px;
+	width: 1030px;
+	background-image: url(Ground_Floor.jpg);
+	background-repeat: no-repeat;
+	background-position: 155px 0px;
+	box-shadow: 0 0 30px black;
+}
+
+.ag {
+	text-align: center;
+	height: 53px;
+	width: 117px;
+	padding-bottom: 48px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(255,135,40);
+	margin-left: 214px;
+	color: white;
+}
+
+.ag:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.bg {
+	text-align: center;
+	height: 53px;
+	width: 117px;
+	padding-bottom: 48px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(255,135,40);
+	margin-left: 214px;
+	color: white;
+}
+
+.bg:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.cg {
+	text-align: center;
+	height: 29px;
+	width: 117px;
+	padding-bottom: 48px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(255,135,40);
+	margin-left: 214px;
+	color: white;
+}
+
+.cg:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.dg {
+	text-align: center;
+	height: 53px;
+	width: 115px;
+	padding-bottom: 48px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(255,135,40);
+	margin-left: 433px;
+	margin-top: -309px;
+	color: white;
+}
+
+.dg:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.eg {
+	text-align: center;
+	height: 51px;
+	width: 115px;
+	padding-bottom: 48px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(255,135,40);
+	margin-left: 433px;
+	color: white;
+}
+
+.eg:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.fg {
+	text-align: center;
+	height: 28px;
+	width: 115px;
+	padding-bottom: 48px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(185,125,85);
+	margin-left: 433px;
+	color: white;
+}
+
+.fg:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.gg {
+	text-align: center;
+	height: 157px;
+	width: 181px;
+	padding-bottom: 48px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(185,235,35);
+	margin-left: 433px;
+	color: white;
+}
+
+.gg:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.ig {
+	margin-top: -146px;
+	text-align: center;
+	height: 88px;
+	width: 107px;
+	padding-bottom: 48px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(0,160,460);
+	margin-left: 623px;
+	color: white;
+}
+
+.ig:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.jg {
+	margin-top: -146px;
+	text-align: center;
+	height: 88px;
+	width: 125px;
+	padding-bottom: 48px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(0,160,460);
+	margin-left: 735px;
+	color: white;
+}
+
+.jg:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.lg {
+	margin-top: 58px;
+	text-align: center;
+	height: 54px;
+	width: 157px;
+	padding-bottom: 28px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(0,160,460);
+	margin-left: 703px;
+	color: white;
+	padding-top: 20px;
+}
+
+.lg:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.kg {
+	margin-top: -111px;
+	text-align: center;
+	height: 54px;
+	width: 132px;
+	padding-bottom: 28px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(0,160,460);
+	margin-left: 565px;
+	color: white;
+	padding-top: 20px;
+}
+
+.kg:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.hg {
+	margin-top: -174px;
+	text-align: center;
+	height: 54px;
+	width: 106px;
+	padding-bottom: 28px;
+	border: 5px solid black;
+	font-family: arial, sans-serif;
+	background-color: rgb(185,235,35);
+	margin-left: 217px;
+	color: white;
+	padding-top: 20px;
+}
+
+.hg:hover {
+	color: yellow;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+.og {
+	background-position: absolute;
+	text-align: center;
+	height: 80px;
+	width: 70px;
+	padding-bottom: 20px;
+	border: 5px solid black;
+	font-family: Arial, sans-serif;
+	background-color: red;
+	margin-left: 495px;
+	margin-top: -50px;
+	color: white;
+}
+
+.og:hover {
+	color: black;
+	background-color: white;
+	box-shadow: 0 0 20px black;
+}
+
+.overlay {
+	max-height: 80px 
+	max-width: 70px;
+}
+
+.og {
+	position: absolute;
+	margin-left: 495px;
+	margin-top: -50px;
+}
+
+.zg {
+	background-position: absolute;
+	text-align: center;
+	height: 35px;
+	width: 117px;
+	padding-bottom: 20px;
+	border: 5px solid black;
+	font-family: Arial, sans-serif;
+	background-color: red;
+	margin-left: 214px;
+	margin-top: -325px;
+	color: white;
+}
+
+.zg:hover {
+	color: black;
+	background-color: white;
+	box-shadow: 0 0 20px black;
+}
+
+.overlayt {
+	max-height: 35px;
+	max-width: 117px;
+}
+
+.zg {
+	position: absolute;
+	margin-left: 214px;
+	margin-top: -325;
+}
+
+.box1 {
+	display: flex;
+	height: 230px;
+	width: 340px;
+	border: 4px solid black;
+	position: absolute;
+	margin-top: -610px;
+	margin-left:  640px;
+	box-shadow: 0 0 20px black;
+	background-color: white;
+}
+
+.box1:hover {
+	background-color: black;
+	background-image: url(brick.jpg);
+	display: flex;
+}
+
+#test {
+	margin-top: -320px;
+	font-size: 34px;
+	margin-left: 748px;
+	color: green;
+}
+
+#txt{
+	position: absolute;
+	margin-top: -120px;
+	font-size: 34px;
+	margin-left: 870px;
+	color: blue;
+}

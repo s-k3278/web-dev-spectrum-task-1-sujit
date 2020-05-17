@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="first_floor.css">
+	<title>first_floor2</title>
+	<script type="">
+	function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+    </script>
+</script>
+</head>
+<body onload="startTime()">
+	<div class="pr"><h3>classroom</h3></div>
+	<div class="br"><h3>classroom</h3></div>
+	<div class="cr"><h3>classroom</h3></div>
+	<div class="dr"><h3>classroom</h3></div>
+	<div class="er"><h3>Staff Room</h3></div>
+	<div class="fr"><h3>classroom</h3></div>
+	<div class="gr"><h3>classroom</h3></div>
+	<div class="hr"><h3>lab</h3></div>
+	<div class="ir"><h3>open space</h3></div>
+	<div class="jr"><h3>Conference Room</h3></div>
+	<div class="kr"><h3>Academic <br>Section</h3></div>
+	<div class="lr"><h3>Examination <br>Section</h3></div>
+	<a class="overlay0" href="second_floor.html"><div class="qr"><h4>Stairs</h4></div></a>
+	<a class="overlayz" href="ground_floor.html"><div class="yr"><h4>Stairs</h4></div></a>
+	<div class="box"></div>
+	<div id="txt"></div>
+	<p id="test"></p>
+
+	<script type="text/javascript">
+		
+		var date = new Date();
+		document.getElementById("test").innerHTML = date.toDateString();
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>second_floor2</title>
+	<link rel="stylesheet" type="text/css" href="second_floor.css">
+	<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+<body onload="startTime()">	
+	<div class="bs"><h3>Classroom</h3></div>
+	<div class="cs"><h3>Classroom</h3></div>
+	<div class="ds"><h3>Classroom</h3></div>
+	<div class="es"><h3>Classroom</h3></div>
+	<a class="overlay" href="first_floor.html"><div class="ms"><h2>Stairs</h2></div></a>
+	<div class="fs"><h3>Washroom</h3></div>
+	<div class="gs"><h3>Staff Room</h3></div>	
+	<div class="hs"><h3>Classroom</h3></div>
+	<div class="is"><h3>Classroom</h3></div>
+	<div class="js"><h3></h3></div>
+	<div class="ks"><h3>CTTC Room</h3></div>
+	<div class="ls"><h3>Spectrum</h3></div>
+	<div class="ns"><h3>Lab</h3></div>
+	<div class="os"><h3>Meeting Room</h3></div>
+	<a class="overlay2" href="first_floor.html"><div class="ps"><h2>Stairs</h2></div></a>
+	<div class="boxx"></div>
+	<div id="txt"></div>
+	<div id="test"></div>
+
+	<script type="text/javascript">
+		
+		var date = new Date();
+		document.getElementById("test").innerHTML = date.toDateString();
+	</script>
+
+</body>
+</html>
